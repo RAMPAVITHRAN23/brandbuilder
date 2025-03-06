@@ -1,0 +1,22 @@
+.animate-marquee{
+    animation: marquee 25s linear infinite;
+}
+
+@keyframes marquee{
+    0% {
+        transform: translate(0);
+    }
+
+    100%
+    {
+        transform: translateX(-50%);
+    }
+}
+
+.testimonials-swipper {
+    padding: 20px 0;
+
+}
+.testimonials-swipper .swiper-slide{
+    height: auto;
+}
